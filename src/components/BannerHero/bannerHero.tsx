@@ -196,44 +196,46 @@ export default function BannerHero() {
           </dialog>
         </div>
       </header>
-      <section className="max-w-[1327px] h-[40rem] mx-auto flex items-center md:flex-col-reverse lg:flex-row">
+      <section className="max-w-[1327px] h-[40rem] mx-auto flex items-center ">
         <div className="h-[29.688rem] w-full flex items-center justify-between ">
-          <div className="flex justify-center items-center gap-5 md:flex lg:flex-col">
-            {Games.map((gameItem, index) => (
-              <div key={index}>
-                <MenuLateral
-                  src={gameItem.icon}
-                  alt={gameItem.alt}
-                  isActive={selectedItem === index}
-                  onClick={() => {
-                    changeGame(index);
-                    setSelectedItem(index);
-                  }}
-                />
-              </div>
-            ))}
-            <img
-              src={IconGame4}
-              alt="Ícone do Diablo "
-              className="mix-blend-luminosity"
-            />
-            <img
-              src={IconGame5}
-              alt="Ícone do StarCraft II"
-              className="mix-blend-luminosity"
-            />
-          </div>
+          <div className="flex w-[802px] items-center justify-between h-full he:flex-row xs:flex-col-reverse">
+            <div className="flex xs:flex-row he:flex-col xs:w-full he:w-12 xs:justify-start xs:pl-4 he:pl-0 he:justify-center items-center gap-5  he:mt-10">
+              {Games.map((gameItem, index) => (
+                <div key={index}>
+                  <MenuLateral
+                    src={gameItem.icon}
+                    alt={gameItem.alt}
+                    isActive={selectedItem === index}
+                    onClick={() => {
+                      changeGame(index);
+                      setSelectedItem(index);
+                    }}
+                  />
+                </div>
+              ))}
+              <img
+                src={IconGame4}
+                alt="Ícone do Diablo "
+                className="mix-blend-luminosity"
+              />
+              <img
+                src={IconGame5}
+                alt="Ícone do StarCraft II"
+                className="mix-blend-luminosity"
+              />
+            </div>
 
-          <div className="max-w-[35.125rem] h-[21.25rem]">
-            <h1 className="text-[3.6rem] leading-[110.2%] text-white font-bold">
-              {game.title}
-            </h1>
-            <p className="text-lg mt-4 font-normal text-white tracking-tighter">
-              {game.subTitle}
-            </p>
-            <button className="mt-8 bg-blue rounded py-4 px-8 text-center text-white flex items-center justify-center gap-[6px]">
-              <User size={20} /> {game.textButton}
-            </button>
+            <div className="max-w-[35.125rem] h-[21.25rem] xs:pl-4 lg:pl-0">
+              <h1 className="text-[3.6rem] leading-[110.2%] text-white font-bold">
+                {game.title}
+              </h1>
+              <p className="text-lg mt-4 font-normal text-white tracking-tighter">
+                {game.subTitle}
+              </p>
+              <button className="mt-8 bg-blue rounded py-4 px-8 text-center text-white flex items-center justify-center gap-[6px]">
+                <User size={20} /> {game.textButton}
+              </button>
+            </div>
           </div>
           <div className="h-full flex flex-col justify-between  ">
             <img src={game.logo} alt="Logo do Diablo" />

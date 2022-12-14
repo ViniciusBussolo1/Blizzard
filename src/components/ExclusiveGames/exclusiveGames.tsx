@@ -90,14 +90,16 @@ export default function ExclusiveGames() {
               logo={game.logo}
             />
           ))}
-          <div className="w-[18.813rem] h-[25.8rem] flex justify-center items-center rounded border-solid border-2 border-[#212428] ">
-            <div className="flex flex-col justify-center items-center gap-10 ">
-              <img src={LogoBlizzard} alt="Logo da Blizzard" />
-              <div className="flex gap-3 cursor-pointer">
-                <img src={IconMenu} alt="Ícone de menu" />
-                <span className="text-white text-lg font-semibold ">
-                  Ver todos jogos
-                </span>
+          <div>
+            <div className="h-[25.8rem] flex justify-center items-center rounded border-solid border-2 border-[#212428] ">
+              <div className="flex flex-col justify-center items-center gap-10 ">
+                <img src={LogoBlizzard} alt="Logo da Blizzard" />
+                <div className="flex gap-3 cursor-pointer">
+                  <img src={IconMenu} alt="Ícone de menu" />
+                  <span className="text-white text-lg font-semibold ">
+                    Ver todos jogos
+                  </span>
+                </div>
               </div>
             </div>
           </div>
