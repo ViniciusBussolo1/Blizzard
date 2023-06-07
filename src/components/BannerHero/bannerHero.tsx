@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import LogoBlizzard from "../../assets/logo-blizzard.png"; 
+=======
+import LogoBlizzard from "../../assets/logo-blizzard.png";
+>>>>>>> 08c631207c405258bab7c5400374b1b527b19b30
 import LogoBattleNet from "../../assets/logo-battle-net.png";
 import BgModal from "../../assets/bg-modal.png";
 
