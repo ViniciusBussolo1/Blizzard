@@ -1,4 +1,4 @@
-import LogoBlizzard from "../../assets/logo-blizzard.png";
+import LogoBlizzard from "../../assets/logo-blizzard.png"; 
 import LogoBattleNet from "../../assets/logo-battle-net.png";
 import BgModal from "../../assets/bg-modal.png";
 
