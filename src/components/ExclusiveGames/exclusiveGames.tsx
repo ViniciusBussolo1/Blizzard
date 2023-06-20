@@ -1,9 +1,9 @@
-import IconBLizzard from "../../assets/icons/blizzard.svg";
-import IconSwitch from "../../assets/icons/switch.svg";
-import IconXbox from "../../assets/icons/xbox.svg";
-import IconPlaystation from "../../assets/icons/playstation.svg";
-import IconMenu from "../../assets/icons/menu.svg";
-import LogoBlizzard from "../../assets/logo-blizzard.png";
+import IconBLizzard from "/icons/blizzard.svg";
+import IconSwitch from "/icons/switch.svg";
+import IconXbox from "/icons/xbox.svg";
+import IconPlaystation from "/icons/playstation.svg";
+import IconMenu from "/icons/menu.svg";
+import LogoBlizzard from "/logo-blizzard.png";
 
 import { useEffect, useState } from "react";
 

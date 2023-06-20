@@ -1,13 +1,14 @@
-import LogoBlizzard from "../../assets/logo-blizzard.png"; 
-import LogoBattleNet from "../../assets/logo-battle-net.png";
-import BgModal from "../../assets/bg-modal.png";
 
-import IconGame4 from "../../assets/banner-hero/icons/game-4.png";
-import IconGame5 from "../../assets/banner-hero/icons/game-5.png";
+import LogoBlizzard from "/logo-blizzard.png"; 
+import LogoBattleNet from "/logo-battle-net.png";
+import BgModal from "/bg-modal.png";
 
-import AppleLogo from "../../assets/modal/apple.svg";
-import FacebookLogo from "../../assets/modal/facebook.svg";
-import GoogleLogo from "../../assets/modal/google.svg";
+import IconGame4 from "/banner-hero/icons/game-4.png";
+import IconGame5 from "/banner-hero/icons/game-5.png";
+
+import AppleLogo from "/modal/apple.svg";
+import FacebookLogo from "/modal/facebook.svg";
+import GoogleLogo from "/modal/google.svg";
 
 import { Games } from "../../data/games";
 import { Game } from "../../types/game";

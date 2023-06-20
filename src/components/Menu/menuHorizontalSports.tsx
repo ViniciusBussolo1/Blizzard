@@ -1,5 +1,5 @@
 import { SubmenuSports } from "../../data/submenu-sports";
-import IconTorneio from "../../assets/icons/torneio.svg";
+import IconTorneio from "/icons/torneio.svg";
 
 interface MenuHorizontalSportsProps {
   onMouseLeave: () => void;

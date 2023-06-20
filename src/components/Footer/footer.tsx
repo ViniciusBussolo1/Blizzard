@@ -2,15 +2,13 @@ import { ItemsFooter } from "../../data/items-footer";
 
 import { AppleLogo, WindowsLogo, LinuxLogo } from "phosphor-react";
 
-import LogoBattleNet from "../../assets/logo-battle-net.png";
-import Cellphone from "../../assets/icons/cellphone.svg";
+import LogoBattleNet from "/logo-battle-net.png";
+import Cellphone from "/icons/cellphone.svg";
 
 const os = ["Windows", "Linux", "Mac"];
 
 export default function Footer() {
   const system = os.find((system) => navigator.userAgent.includes(system));
-
-  console.log(system);
 
   return (
     <footer className="bg-footer bg-cover bg-no-repeat w-full h-[852px] flex sm:flex-col md:flex-row items-center justify-end gap-20 px-14 xs:pt-12">

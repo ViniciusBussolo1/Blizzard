@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        footer: "url('./src/assets/footer-background.png')",
-        "footer-app": "url('./src/assets/ilustrations/app.png')",
-        "footer-app-mini": "url('./src/assets/ilustrations/app-mini.png')",
+        footer: "url('/footer-background.png')",
+        "footer-app": "url('/ilustrations/app.png')",
+        "footer-app-mini": "url('/ilustrations/app-mini.png')",
       },
       colors: {
         blue: "#00AEFF",
